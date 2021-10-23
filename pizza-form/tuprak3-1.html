@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<body>
+    <div style="margin: 0 auto; background-color: #f1f0f0; padding: 5px 5px;
+    width: 14.8cm; height: 23cm; font-family: Calibri; font-size:large; border: 2px solid black; box-shadow: 1px 6px 10px 10px #b1d6ff;">
+    <form action="tuprak3-1.1.html" method="post">
+        <table style="padding: 15px; width: 14.8cm;">
+            <tr>
+                <td colspan="2">
+                    <b>Black Goose Bistro | Pizza-on-Demand</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 15px 0;">
+                    Our 12" wood-fired pizzas are available for delivery. Build your <br>custom pizza 
+                    and we'll deliver it an hour.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Your Information</td>
+            </tr>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td>: <input type="text" id="name" name="nama" style="width: 7cm;"></td>
+            </tr>
+            <tr>
+                <td><label for="add">Address</label></td>
+                <td>: <input type="text" id="add" name="add" style="width: 7cm;"></td>
+            </tr>
+            <tr>
+                <td><label for="telp">Telephone Number</label></td>
+                <td>: <input type="number" id="telp" name="telp" style="width: 7cm;"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>: <input type="email" id="email" name="email" style="width: 7cm;"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="inst">Delivery instructions:</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="inst" name="inst" cols="30" rows="3" maxlength="400"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 15px 0;">
+                    <b>Design Your Dream Pizza:</b><br>
+                    Pizza specs
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Crust(Choose one):</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding-left:15px;">
+                    <input type="radio" id="clas" name="crust"><label for="clas">Classic white</label><br>
+                    <input type="radio" id="mul" name="crust"><label for="mul">Multigran</label><br>
+                    <input type="radio" id="che" name="crust"><label for="che">Cheese-stuffed crust</label><br>
+                    <input type="radio" id="glu" name="crust"><label for="glu">Gluten-free</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Toppings (Choose as many as you want):</td>
+            </tr>
+            <tr>
+                <td style="padding-left:15px;" colspan="2">
+                    <input type="checkbox" id="red" name="top" checked><label for="red">Red source</label><br>
+                    <input type="checkbox" id="whi" name="top"><label for="whi">White souce</label><br>
+                    <input type="checkbox" id="moz" name="top"><label for="moz">Mozzarella Cheese</label><br>
+                    <input type="checkbox" id="pp" name="top"><label for="pp">Pepperoni</label><br>
+                
+                    <input type="checkbox" id="mus" name="top"><label for="mus">Mushrooms</label><br>
+                    <input type="checkbox" id="pep" name="top"><label for="pep">Peppers</label><br>
+                    <input type="checkbox" id="anc" name="top"><label for="anc">Anchovies</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 15px 0;">
+                    Number<br>
+                    <label for="num">How many pizzaz:</label>
+                    <input type="number" id="num" name="num" value="1" style="width: 33px; font-weight: bold;">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Bring me a pizza!" style="padding: 5px; font-weight: bold;">
+                    <input type="reset" value="Reset" style="padding: 5px; font-weight: bold;">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
