@@ -1,0 +1,117 @@
+.tab {
+    height: 10cm;
+    width: 16cm;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.header {
+    border:2px solid black;background-color:rgb(223, 219, 219);
+}
+
+.head {
+    padding: 10px 10px;
+}
+
+.site {
+    width: 130px;
+    font-weight: bold;
+}
+
+.cate {
+    font-size: 13.5px;
+}
+
+.cart {
+    text-align: right; 
+    width: 200px;
+}
+
+.artic {
+    padding: 10px 10px;
+}
+
+.artic span {
+    font-size: x-large;
+}
+
+.quan {
+    text-align: right;
+}
+
+img {
+    width: 50px;
+}
+
+#size {
+    width: 170px;
+}
+
+#har {
+    width: 100px;
+}
+
+.number {
+    width: 40px;
+}
+
+.content {
+    padding: 10px 10px;
+}
+
+.content fieldset {
+    background-color: rgb(223, 219, 219);
+    border: none;
+}
+
+th {
+    padding: 5px 0;
+}
+
+.chec {
+    color: white;
+    text-decoration: none;
+}
+
+.chec div {
+    width: 140px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jar {
+    height: 150px;
+}
+
+.footer {
+    border: 2px solid black;
+}
+
+.faf {
+    text-align: right;
+    width: 280px;
+    font-size: 13.5px;
+}
+
+.tabfot {
+    border: 1px solid black;
+    margin-left: 30mm;
+}
+
+.email {
+    width: 95px;
+    border: 1px;
+}
+
+.subfot {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    width: 75px;
+}
