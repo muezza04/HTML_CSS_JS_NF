@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    /* border: 1px solid black;  */
+    width: 900px;
+    height: 100px;
+    margin: auto;
+}
+
+.colum {
+    height: 100px;
+
+}
+
+.yellow {
+    width: 150px;
+    background-color: yellow;
+    float: left;
+}
+
+.orange {
+    width: 735px;
+    background-color: orange;
+    float: right;
+}
+
+.rowdu {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    padding: 1em 0;
+    /* border: 1px solid black; */
+}
+
+.black {
+    background-color: black;
+    float: left;
+    width: 150px;
+}
+
+.pink {
+    background-color: pink;
+    margin-left: 1em;
+    float: left;
+    width: 568px;
+}
+
+.blue {
+    background-color: blue;
+    float: right;
+    width: 150px;
+}
+
+.columdu {
+    height: 470px;
+    position: static;
+    /* border: 1px solid black; */
+}
+
+.fot {
+    width: 900px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+}
