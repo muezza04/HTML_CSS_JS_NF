@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 700px;
+    height: 120px;
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.one{
+    background-color: blue;
+    width: 32%;
+}
+
+.two{
+    background: red;
+    width: 18.5%;
+}
